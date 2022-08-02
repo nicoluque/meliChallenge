@@ -26,9 +26,3 @@ public class IPController {
     }
 	
 }
-
-
-
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-
-0.0.0.0:13306

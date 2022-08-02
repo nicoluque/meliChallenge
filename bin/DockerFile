@@ -1,0 +1,6 @@
+FROM openjdk:11 AS build
+COPY src JavaDocker
+WORKDIR JavaDocker
+RUN javac -d bin ./com/meli/MeliAplication.java
+WORKDIR bin
+CMD ["java", "com.meli.MeliAplication"]
